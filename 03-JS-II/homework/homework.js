@@ -146,7 +146,7 @@ function operadoresLogicos(num1, num2, num3) {
   
  
   }
-}
+
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
