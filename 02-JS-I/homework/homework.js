@@ -28,33 +28,36 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) { 
   // "Return" la string provista: str
   // Tu código:
-  return str ="str"
+  return str
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var a = sum(x + y)
+  var sum = (x + y)
   return sum
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  var res = (x - y)
+  return res
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var mul = (x * y)
+  return mul
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var div = (x / y)
+  return div
 }
 
 function sonIguales(x, y) {
