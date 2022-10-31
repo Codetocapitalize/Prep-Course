@@ -67,10 +67,10 @@ String.prototype.reverse = function() {
 
   class Persona {
    constructor(nombre, apellido, edad, domicilio) {
-      this.nombre == nombre;
-      this.apellido == apellido;
-      this.edad == edad;
-      this.domicilio == domicilio;
+      this.nombre = nombre;
+      this.apellido = apellido;
+      this.edad = edad;
+      this.domicilio = domicilio;
       this.detalle = function () {
         return {
           nombre: this.nombre,
@@ -89,7 +89,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
 
-  var persona = new Persona (nombre, apellido, edad, dir)
+  var persona = new Persona(nombre, apellido, edad, dir)
   
   return persona;
 }
